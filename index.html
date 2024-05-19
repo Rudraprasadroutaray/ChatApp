@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script> <!-- Socket.io library -->
+    <script defer src="js/client.js"></script> <!-- Your client-side JavaScript file -->
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Your CSS file -->
+</head>
+<body>
+    <nav>
+        <img class="logo" src="icons8-whatsapp-48.png" alt="img"> <!-- WhatsApp logo -->
+    </nav>
+
+    <div class="container">
+        <!-- Messages container -->
+        <div class="message right">Hey</div> <!-- Sample message, right aligned -->
+        <div class="message left">hii</div> <!-- Sample message, left aligned -->
+    </div>
+
+    <div class="send">
+        <!-- Message sending form -->
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp"> <!-- Input for typing messages -->
+            <button type="submit">Send</button> <!-- Button to send messages -->
+        </form>
+    </div>
+</body>
+</html>

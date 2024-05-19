@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+body, nav, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation */
+nav {
+    background-color: #075e54;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the logo */
+.logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+/* Style the container for messages */
+.container {
+    max-width: 1443px;
+    margin: auto;
+    padding: 20px;
+    overflow-y: auto;
+    height: calc(100vh - 120px); /* Adjust the height according to your layout */
+}
+
+/* Style the message bubbles */
+.message {
+    background-color: #dcf8c6; /* Light green */
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    clear: both; /* Ensure proper alignment */
+}
+
+.right {
+    float: right;
+    clear: both; /* Ensure proper alignment */
+}
+
+.left {
+    float: left;
+    clear: both; /* Ensure proper alignment */
+}
+
+/* Style the send form */
+.send {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2; /* Light gray */
+    padding: 10px 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the input and button */
+#send-container {
+    display: flex;
+    align-items: center;
+    width: 91vw;
+    justify-content: center;
+    margin: auto;
+}
+
+#messageInp {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #128c7e; /* Dark green */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #075e54; /* Dark green, darker on hover */
+}
